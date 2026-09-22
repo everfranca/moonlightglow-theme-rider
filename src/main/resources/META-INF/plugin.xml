@@ -1,9 +1,10 @@
 <idea-plugin>
   <id>com.everfranca.moonlightglow</id>
   <name>MoonlightGlow</name>
-  <vendor>everfranca</vendor>
+  <vendor email="everfranca@gmail.com" url="https://github.com/everfranca/moonlightglow-theme-rider">everfranca</vendor>
   <version>1.0.4</version>
-  <description><![CDATA[Moonlight Glow (Visual Studio 2026) for Rider 2026.2: navy chrome #0F2B48, darker toolbars #0A1E32, accent #89B6E6, editor #1E1E1E with unified TestGlow color scheme.]]></description>
+  <description><![CDATA[Moonlight Glow (Visual Studio 2026) for Rider 2026.2: navy chrome #0F2B48, darker toolbars #0A1E32, accent #89B6E6, editor #1E1E1E with unified MoonlightGlow color scheme.]]></description>
+  <change-notes><![CDATA[<ul><li>1.0.4: darker toolbars (#0A1E32) for MainToolbar, ToolWindow headers/stripes and StatusBar.</li></ul>]]></change-notes>
   <depends>com.intellij.modules.platform</depends>
   <idea-version since-build="262" until-build="262.*"/>
   <extensions defaultExtensionNs="com.intellij">
