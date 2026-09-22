@@ -1,0 +1,109 @@
+{
+  "name": "MoonlightGlow",
+  "dark": true,
+  "author": "Migrado de VS2026 Moonlight Glow",
+  "parentTheme": "ExperimentalDark",
+  "editorScheme": "MoonlightGlow",
+  "colors": {
+    "Gray3": "#313234",
+    "Gray2.5": "#2B2E32",
+    "Gray2.25": "#24272B",
+    "Gray2": "#24272B",
+    "Gray1.5": "#1E2836",
+    "Gray1.25": "#16233A",
+    "Gray1": "#0F2B48",
+    "Gray0.75": "#0D2340",
+    "Gray0.5": "#0A1C34",
+    "Gray0.25": "#081627",
+    "Gray0": "#060F1D",
+    "ForegroundDefault": "#DCDCDC",
+    "BackgroundDark": "#0F2B48",
+    "BackgroundMid": "#0F2B48",
+    "BackgroundLight": "#24272B",
+    "BackgroundLightest": "#313234",
+    "AltBackgroundLight": "#2B2E32",
+    "BorderLight": "#89B6E6",
+    "BorderDark": "#24272B",
+    "BorderTransparent": "#00000000",
+    "ToolWindowBackground": "#0F2B48",
+    "PanelBackground": "#0F2B48",
+    "InputBackground": "#0F2B48",
+    "ComboboxBackground": "#24272B",
+    "ComponentBorder": "#89B6E6",
+    "ComponentBorderFocus": "#89B6E6",
+    "ComponentBorderDisabled": "#4a4a4a",
+    "PopupBackground": "#313234",
+    "PopupBackgroundLight": "#313234",
+    "PopupBorder": "#24272B",
+    "TooltipBackground": "#313234",
+    "TooltipBorder": "#89B6E6",
+    "HoverBackgroundMid": "#313234",
+    "HoverBackgroundLight": "#313234",
+    "SelectionActive": "#2F4B73",
+    "SelectionActiveLight": "#2F4B73",
+    "SelectionInactive": "#3A3F45"
+  },
+  "ui": {
+    "*": {
+      "foreground": "ForegroundDefault",
+      "background": "PanelBackground",
+      "borderColor": "BorderDark",
+      "selectionBackground": "SelectionActive",
+      "selectionInactiveBackground": "SelectionInactive",
+      "inactiveBackground": "BackgroundMid"
+    },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderColor": "ToolWindowBackground",
+      "inactiveAlpha": 0.55
+    },
+    "MainWindow.background": "#0F2B48",
+    "TitlePane.background": "#0A1E32",
+    "TitlePane.inactiveBackground": "#0A1E32",
+    "Panel.background": "#0F2B48",
+    "Tree.background": "#0F2B48",
+    "List.background": "#0F2B48",
+    "SidePanel.background": "#0F2B48",
+    "Menu.background": "#0F2B48",
+    "MenuBar.background": "#0F2B48",
+    "MainWindow.Tab": {
+      "background": "#24272B",
+      "selectedBackground": "#0F2B48",
+      "hoverBackground": "#313234",
+      "foreground": "#DCDCDC"
+    },
+    "MainToolbar": {
+      "background": "#0A1E32",
+      "inactiveBackground": "#0A1E32",
+      "Icon.background": "#0A1E32"
+    },
+    "StatusBar": {
+      "background": "#0A1E32"
+    },
+    "ToolWindow": {
+      "background": "#0F2B48",
+      "Stripe.background": "#0A1E32",
+      "Header": {
+        "background": "#0A1E32",
+        "inactiveBackground": "#0A1E32"
+      }
+    },
+    "EditorTabs": {
+      "background": "#24272B",
+      "underlinedTabBackground": "#0F2B48",
+      "underlinedBorderColor": "#89B6E6"
+    },
+    "Borders.color": "BorderDark"
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#89B6E6",
+      "Actions.Grey": "#858585",
+      "Objects.Blue": "#569CD6",
+      "Objects.Green": "#6A9955",
+      "Objects.Yellow": "#DCDCAA",
+      "Objects.Teal": "#4EC9B0"
+    }
+  }
+}
